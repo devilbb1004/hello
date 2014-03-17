@@ -1,0 +1,29 @@
+body{
+       background: url("main.png");  
+       font-family: Arial,sans-serif ;
+       color: yellow;
+       height: 100% ;
+       display: block ;
+}
+#gameboard{ 
+text-align: center; 
+}
+#navigation {
+  font-size : 20px;
+  text-align: center;
+  font-weight: 100px;
+  margin-bottom : 10px;
+}
+#newStartBtn #StartBtn{
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  display: block;
+}
+#cardSu{
+  maxlength : 2;
+  onKeypress : if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;
+}
